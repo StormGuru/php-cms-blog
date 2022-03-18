@@ -1,0 +1,153 @@
+*{margin: 0; padding:0; border: 0; }
+*, *:after, *:before{-moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    box-sizing: border-box;}
+:focus, :active, a:focus, a:active{outline: none;}
+nav, footer, header, aside{ display: block;}
+html, body{height: 100%; width: 100%; font-size: 100%; line-height: 1; font-size: 14px;
+    -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+input, button, textarea{ font-family: inherit;}
+
+@font-face {
+	font-family: 'P22 Corinthia';
+	src: url('../assets/fonts/p22corinthia.eot');
+	src: local('☺'), url('../assets/fonts/p22corinthia.woff') format('woff'), url('fonts/p22corinthia.ttf') format('truetype'), url('fonts/p22corinthia.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color:#F2EDDC;;
+}
+/*HEADER*/
+.header{
+  text-align: center;
+}
+.headtop{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 10px 10px 0px;
+    margin-bottom: 20px;
+}
+.sign{
+    margin-left: 10px;
+}
+.sign a{
+color: black;
+border: 1px solid black;
+border-radius: 15px;
+font-size: 1.1rem;
+padding:5px 13px;
+text-decoration: none;
+margin-right:5px;
+}
+.sign2{
+    margin-left: 10px;
+}
+.sign2 a{
+    color: black;
+    font-size: 1.1rem;
+    padding:5px 13px;
+    text-decoration: none;
+    margin-right:5px;
+    }
+.search input{
+    font-size: 1.1rem;
+    padding:5px;
+}
+.search_sbm{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+.logo{
+    font-family: 'P22 Corinthia';
+    font-size: 7rem;
+    margin-bottom: 30px;
+    transform: rotate(-15deg);
+}
+/* FOOTER */
+.footer{
+    background-color:#644c38;
+    color: white;
+    font-weight: 200;
+}
+.list li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 10px 20px 40px;
+    text-decoration: underline;
+}
+.foot p{
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+} 
+.socials{
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+}
+.socials a{
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:5px 10px;
+    margin-right: 10px;
+}
+.signbox{
+    background-color: #A88F77;
+    max-width: 400px;
+    text-align: center;
+    margin: 10px auto 20px auto;
+    padding: 2px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.signbox input{
+    display:block;
+    height: 45px;
+    padding:10px 10px 10px 20px;
+    margin: 10px auto 12px auto;
+    background-color: #eee3d9;
+    width: 380px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+.autbtn{
+    background-color: black;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color:white;
+    height: 40px;
+}
+.btnbox{
+    text-align: right;
+    width: 380px;
+    margin: 0 auto 90px auto;
+}
+.redirect{
+    margin: 60px auto 10px auto;
+    text-align: center;
+}
+.redirect a{
+    color:#A88F77;
+    text-decoration: underline;
+}
+.msg{
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+}

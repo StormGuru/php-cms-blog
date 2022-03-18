@@ -1,0 +1,204 @@
+*{margin: 0; padding:0; border: 0; }
+*, *:after, *:before{-moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    box-sizing: border-box;}
+:focus, :active, a:focus, a:active{outline: none;}
+nav, footer, header, aside{ display: block;}
+html, body{height: 100%; width: 100%; font-size: 100%; line-height: 1; font-size: 14px;
+    -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+input, button, textarea{ font-family: inherit;}
+
+@font-face {
+	font-family: 'P22 Corinthia';
+	src: url('../assets/fonts/p22corinthia.eot');
+	src: local('☺'), url('../assets/fonts/p22corinthia.woff') format('woff'), url('fonts/p22corinthia.ttf') format('truetype'), url('fonts/p22corinthia.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color:#F2EDDC;
+}
+/*HEADER*/
+.header{
+  text-align: center;
+}
+.headtop{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 10px 10px 0px;
+    margin-bottom: 20px;
+}
+.sign{
+    margin-left: 10px;
+}
+.sign a{
+color: black;
+border: 1px solid black;
+border-radius: 15px;
+font-size: 1.1rem;
+padding:5px 13px;
+text-decoration: none;
+margin-right:5px;
+}
+.sign_s{
+    margin-left: 10px;
+}
+.sign_s a{
+    color: black;
+    font-size: 1.1rem;
+    padding:5px 13px;
+    text-decoration: none;
+    margin-right:5px;
+    }
+.search input{
+    font-size: 1.1rem;
+    padding:5px;
+}
+.search_sbm{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+.logo{
+    font-family: 'P22 Corinthia';
+    font-size: 7rem;
+    margin-bottom: 30px;
+    transform: rotate(-15deg);
+}
+
+/* FOOTER */
+.footer{
+    background-color:#644c38;
+    color: white;
+    font-weight: 200;
+}
+.list li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 10px 20px 40px;
+    text-decoration: underline;
+}
+.foot p{
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+} 
+.socials{
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+}
+.socials a{
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:5px 10px;
+    margin-right: 10px;
+}
+
+/* CONTENT*/
+.content{
+    display: flex;
+    background-color: #F8F5EC;
+    width:100%;
+}
+.adm_menu{
+    background-color: #AD9077;
+    max-width: 27%;
+    height: 100%;
+    padding: 20px 50px 70px 30px;
+}
+.adm_log{
+    padding:6px 10px;
+    border: 1px solid white;
+    border-radius: 14px;
+    color:white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.adm_menu a{
+    color: white;
+    text-decoration: none;
+}
+.adm_menu p{
+    padding: 25px 20px 15px 10px;
+    border-bottom: 1px solid white;
+    font-size: large;
+    font-weight: 200;
+}
+.adm_table{
+   /* width: 73%;*/
+    padding: 30px 5px 30px 30px;
+}
+.welcome{
+    margin: 0 auto;
+    font-size: 4rem;
+    color:#DBBA9E;
+    padding:100px 200px;
+    text-align: center;
+    line-height: 1.5;
+}
+.adm_table h1{
+    padding-left: 55px;
+    margin-bottom: 30px;
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border-bottom: 1px solid #DBBA9E;
+}
+th, td{
+    padding: 5px 10px;
+    height: 40px;
+}
+.red{
+    color: red;
+}
+.forestgreen{
+    color: forestgreen;
+}
+.add{
+    margin-bottom: 30px;
+}
+.add a{
+    border:1px solid  forestgreen;
+    color: forestgreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+.add_admin input{
+  margin-bottom: 20px;
+  height: 30px;
+  width: 220px;
+  border-radius: 15px ;
+  padding: 8px;
+}
+.add_admin textarea{
+    padding:10px;
+    margin-bottom: 20px;
+}
+.add_btn{
+    background-color: forestgreen;
+    width: 100px;
+}
+.msg{
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+select{
+    margin-bottom: 20px;
+}
