@@ -6,7 +6,6 @@ include 'app/controllers/articles.php';
 // IMAGE
 $image = getOne('image', ['id' => 1]);
 $image2 = 'admin/img/'. $image['img_name'];
-echo $image2;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +22,7 @@ echo $image2;
 <?php include "app/include/header.php"?>
       <!--CONTENT-->
       <div class="content">
-          <div class="main1" style="background-image: url('<?= $image ?>');">
+          <div class="main1" style="background-image: url('<?= $image2?>');">
            <div class="main2">
             <div class="main3">
               <div class="categories">
