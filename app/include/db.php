@@ -1,6 +1,5 @@
 <?php
 session_start();
-echo "start";
 
 $connect = new PDO("mysql:host=localhost; dbname=mb; charset=utf8", "mysql", "");
 // $sql = "INSERT users (login, password) VALUE ('Admin', '1111')";
